@@ -5,10 +5,8 @@ import {
   Filter, 
   Edit2, 
   Trash2, 
-  MoreVertical, 
   Package, 
   DollarSign, 
-  Tag, 
   Image as ImageIcon,
   Save,
   ArrowLeft
@@ -26,7 +24,7 @@ const initialProducts = [
 
 const AdminProducts: React.FC = () => {
   const [view, setView] = useState<'list' | 'edit'>('list');
-  const [products, setProducts] = useState(initialProducts);
+  const [products] = useState(initialProducts);
   const [currentProduct, setCurrentProduct] = useState<any>(null);
 
   const handleEdit = (product: any) => {

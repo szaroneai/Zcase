@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserPlus, Mail, Shield, MoreHorizontal } from 'lucide-react';
+import { UserPlus, Shield, MoreHorizontal } from 'lucide-react';
 import Button from '../../components/Button';
 
 const AdminUsers: React.FC = () => {

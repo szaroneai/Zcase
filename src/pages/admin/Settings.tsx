@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Save, Shield, Database, Bell, Globe, Lock, Smartphone } from 'lucide-react';
+import { Shield, Database, Bell, Globe, Lock } from 'lucide-react';
 import Button from '../../components/Button';
 
 const Toggle: React.FC<{ label: string; checked: boolean; onChange: () => void }> = ({ label, checked, onChange }) => (

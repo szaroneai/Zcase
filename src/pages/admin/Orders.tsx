@@ -3,14 +3,9 @@ import {
   Search, 
   Filter, 
   MoreVertical, 
-  Eye, 
   Printer, 
   Download, 
   CheckCircle, 
-  Clock, 
-  XCircle,
-  Package,
-  Truck,
   MapPin,
   Phone,
   Mail,
@@ -88,7 +83,7 @@ const initialOrders = [
 
 const AdminOrders: React.FC = () => {
   const [view, setView] = useState<'list' | 'details'>('list');
-  const [orders, setOrders] = useState(initialOrders);
+  const [orders] = useState(initialOrders);
   const [currentOrder, setCurrentOrder] = useState<any>(null);
   const [selectedOrders, setSelectedOrders] = useState<string[]>([]);
   const [filterStatus, setFilterStatus] = useState('All Statuses');

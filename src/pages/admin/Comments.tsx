@@ -5,11 +5,8 @@ import {
   XCircle, 
   Flag, 
   Trash2, 
-  MoreVertical, 
-  Search, 
-  Filter 
+  Search
 } from 'lucide-react';
-import Button from '../../components/Button';
 
 // Mock Comments Data
 const initialComments = [
@@ -20,7 +17,7 @@ const initialComments = [
 ];
 
 const AdminComments: React.FC = () => {
-  const [comments, setComments] = useState(initialComments);
+  const [comments] = useState(initialComments);
 
   return (
     <div className="space-y-6">

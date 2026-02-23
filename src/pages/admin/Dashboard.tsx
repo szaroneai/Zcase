@@ -3,9 +3,7 @@ import {
   Users, 
   ShoppingCart, 
   DollarSign, 
-  TrendingUp, 
   Eye, 
-  Clock,
   ArrowUpRight,
   ArrowDownRight,
   MoreHorizontal

@@ -3,12 +3,8 @@ import {
   Plus, 
   Search, 
   Filter, 
-  MoreVertical, 
   Edit2, 
   Trash2, 
-  Eye, 
-  CheckCircle, 
-  XCircle,
   Save,
   Image as ImageIcon
 } from 'lucide-react';
@@ -24,7 +20,7 @@ const initialArticles = [
 
 const AdminContent: React.FC = () => {
   const [view, setView] = useState<'list' | 'edit'>('list');
-  const [articles, setArticles] = useState(initialArticles);
+  const [articles] = useState(initialArticles);
   const [currentArticle, setCurrentArticle] = useState<any>(null);
 
   const handleEdit = (article: any) => {

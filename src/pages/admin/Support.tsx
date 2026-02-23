@@ -6,10 +6,7 @@ import {
   Clock, 
   AlertCircle, 
   Search,
-  Filter,
   MoreVertical,
-  Send,
-  User,
   Plus
 } from 'lucide-react';
 import Button from '../../components/Button';
@@ -24,7 +21,7 @@ const initialTickets = [
 
 const AdminSupport: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'tickets' | 'faq'>('tickets');
-  const [tickets, setTickets] = useState(initialTickets);
+  const [tickets] = useState(initialTickets);
 
   return (
     <div className="space-y-6">
