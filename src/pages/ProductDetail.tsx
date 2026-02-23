@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Button from '../components/Button';
-import { ShoppingCart, Check, Shield, Truck, Settings, X, ChevronRight, Play, Instagram } from 'lucide-react';
+import { ShoppingCart, Check, Shield, Truck, Settings, X, ChevronRight } from 'lucide-react';
 
 const ProductDetail: React.FC = () => {
   const [activeTab, setActiveTab] = useState('specs');
   const [isConfiguring, setIsConfiguring] = useState(false);
   const [activeImage, setActiveImage] = useState(0);
-  const [showVideo, setShowVideo] = useState(false);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
   const openLightbox = (index: number) => {
