@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Product } from '../types';
-import Button from './Button';
-import { Eye, ArrowRight, Check, Plus, ShoppingCart } from 'lucide-react';
+
+import { Eye, Plus, ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface ProductCardProps {

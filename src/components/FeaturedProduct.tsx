@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Star, Check, ShoppingCart, MessageCircle, ArrowRight, ZoomIn, X, ChevronRight, ChevronLeft } from 'lucide-react';
+import { Star, ShoppingCart, MessageCircle, ZoomIn, X, ChevronRight, ChevronLeft } from 'lucide-react';
 import Button from './Button';
 
 const FeaturedProduct: React.FC = () => {

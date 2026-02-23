@@ -3,7 +3,6 @@ import { Outlet, NavLink, useNavigate } from 'react-router-dom';
 import { 
   LayoutDashboard, 
   FileText, 
-  Image as ImageIcon, 
   Users, 
   Settings, 
   LogOut, 
@@ -16,8 +15,7 @@ import {
   MessageSquare,
   BarChart2,
   HelpCircle,
-  Puzzle,
-  ChevronDown
+  Puzzle
 } from 'lucide-react';
 
 const AdminLayout: React.FC = () => {
